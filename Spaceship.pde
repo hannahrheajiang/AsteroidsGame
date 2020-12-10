@@ -12,7 +12,7 @@ class Spaceship extends Floater
     }
     public void hyperspace(){
       //Moves spaceship to random location in canvas, pointing in random direction
-      myXspeed = myYspeed = 0;
+      myXspeed = myYspeed = 1;
       myCenterX = (double) Math.random()*width;
       myCenterY = (double) Math.random()*height;
       myPointDirection = (double)(Math.random()*360) + 1;
