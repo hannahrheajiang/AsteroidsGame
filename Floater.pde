@@ -4,6 +4,7 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
   protected int[] xCorners;   
   protected int[] yCorners;   
   protected int myColor;   
+  protected int myStroke;
   protected double myCenterX, myCenterY; //holds center coordinates   
   protected double myXspeed, myYspeed; //holds the speed of travel in the x and y directions   
   protected double myPointDirection; //holds current direction the ship is pointing in degrees    
@@ -50,7 +51,7 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
   public void show ()  //Draws the floater at the current position  
   {             
     fill(myColor);   
-    stroke(myColor);    
+    stroke(myStroke);    
     
     //translate the (x,y) center of the ship to the correct position
     translate((float)myCenterX, (float)myCenterY);
