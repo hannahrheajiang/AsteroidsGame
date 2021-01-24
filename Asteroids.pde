@@ -31,4 +31,3 @@ class Asteroids extends Floater
     return (int)myCenterY;
   }
 }
-  
