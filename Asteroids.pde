@@ -29,3 +29,4 @@ class Asteroids extends Floater
   public int getColor() {return (int)myColor;}
   public void setColor(int newColor) {myColor = newColor;}
 }
+  
